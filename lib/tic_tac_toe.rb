@@ -2,6 +2,8 @@ def play(board)
   until over?(board)
     turn(board)
   end
+  if won?(board)
+    puts "Congratualtions #{current_player}"
 
 
 def display_board(board)
