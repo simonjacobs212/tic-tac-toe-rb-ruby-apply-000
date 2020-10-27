@@ -3,6 +3,11 @@ def play(board)
     turn(board)
     over?(board)
   end
+  if won?(board)
+    puts "Congratualtions #{current_player}"
+  else
+    puts "It's a draw! Shall we play again?"
+  end
 end
 
 
