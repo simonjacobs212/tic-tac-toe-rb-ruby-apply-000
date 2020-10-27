@@ -8,6 +8,7 @@ def play(board)
   else
     puts "It's a draw! Shall we play again?"
   end
+  turn(board)
 end
 
 
